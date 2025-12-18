@@ -1,0 +1,11 @@
+mlflow-skinny
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+mlflow
+fastapi
+uvicorn
+pytest
