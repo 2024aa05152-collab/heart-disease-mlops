@@ -37,37 +37,44 @@ data/heart.csv
 ```
 heart-disease-mlops/
 │
-├── app/                  # FastAPI application
+├── app/                          # FastAPI application
 │   └── main.py
 │
-├── data/                 # Dataset
+├── data/                         # Dataset
 │   └── heart.csv
 │
-├── models/               # Trained model artifacts
+├── models/                       # Trained model artifacts
 │   └── heart_model.pkl
 │
-├── notebooks/            # EDA notebook
+├── notebooks/                    # EDA notebook
 │   └── eda.ipynb
 │
-├── src/                  # Core ML code
+├── src/                          # Core ML code
 │   ├── preprocess.py
 │   ├── train.py
 │   └── utils.py
 │
-├── tests/                # Unit tests
+├── tests/                        # Unit tests
 │   └── test_model.py
 │
-├── k8s/                  # Kubernetes manifests
+├── k8s/                          # Kubernetes manifests
 │   ├── deployment.yaml
-│   └── service.yaml
+│   ├── service.yaml
+│   └── ingress.yaml              
 │
-├── .github/workflows/    # CI/CD pipeline
-│   └── mlops.yml
+├── .github/
+│   └── workflows/                # CI/CD pipeline
+│       └── mlops.yml
+│
+├── workflowScreenshots/           
+│   
+├── report/                        
+│   └── report.docx               
 │
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
-└── report.docx
+
 ```
 
 ---
