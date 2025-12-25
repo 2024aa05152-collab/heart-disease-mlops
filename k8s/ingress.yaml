@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: heart-model-group85-ingress
+spec:
+  rules:
+  - host: heart-model-group85.local
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: heart-model-group85
+            port:
+              number: 80

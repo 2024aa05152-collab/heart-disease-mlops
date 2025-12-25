@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: heart-model-group85
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: heart-model-group85
+  template:
+    metadata:
+      labels:
+        app: heart-model-group85
+    spec:
+      containers:
+      - name: heart-model
+        image: heart-disease-api:latest
+        ports:
+        - containerPort: 80
