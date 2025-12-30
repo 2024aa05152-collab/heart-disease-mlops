@@ -9,3 +9,7 @@ mlflow
 fastapi
 uvicorn
 pytest
+prometheus-client
+python-json-logger
+structlog
+python-multipart
