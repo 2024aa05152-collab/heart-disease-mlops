@@ -1,8 +1,8 @@
 name: MLOps CI/CD/CT Pipeline
 
 on:
-  push:
-    branches: [ "develop" ]
+  # push:
+  #   branches: [ "develop" ]
   pull_request:
     branches: [ "develop" ]
 
