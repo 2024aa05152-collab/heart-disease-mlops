@@ -13,3 +13,7 @@ prometheus-client
 python-json-logger
 structlog
 python-multipart
+dagshub
+dvc
+dvc-s3
+python-dotenv
