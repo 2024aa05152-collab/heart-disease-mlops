@@ -2,44 +2,62 @@ name: MLOps CI Pipeline
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: ["develop"]
   pull_request:
-    branches: [ "develop" ]
+    branches: ["develop"]
 
 jobs:
   build-test-train:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.10"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest flake8
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install flake8 black pytest pytest-cov
 
-    - name: Lint code (Flake8)
-      run: |
-        flake8 src app tests --count --select=E9,F63,F7,F82 --show-source --statistics
-        flake8 src app tests --count --exit-zero --max-complexity=10 --statistics
+      - name: Lint code (Black)
+        run: black --check --diff .
 
-    - name: Run unit tests
-      run: |
-        pytest tests/
+      - name: Lint code (Flake8)
+        run: |
+          flake8 src app tests --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 src app tests --count --exit-zero --max-complexity=10 --statistics
 
-    - name: Train model
-      run: |
-        python src/train.py
+      - name: Run unit tests with coverage
+        run: |
+          pytest tests/ -v --cov=src --cov-report=xml
 
-    - name: Upload trained model artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: trained-model
-        path: models/heart_model.pkl
+      - name: Train model
+        env:
+          MLFLOW_TRACKING_URI: ./mlruns
+        run: |
+          python src/train.py
+
+      - name: Upload trained model artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: trained-model
+          path: models/heart_model.pkl
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage.xml
+
+      - name: Upload logs (if you log to logs/)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs
+          path: logs/

@@ -13,3 +13,6 @@ prometheus-client
 python-json-logger
 structlog
 python-multipart
+flake8
+black
+pytest-cov
