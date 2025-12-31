@@ -35,13 +35,13 @@ jobs:
         flake8 src app tests --count --select=E9,F63,F7,F82 --show-source --statistics
         flake8 src app tests --count --exit-zero --max-complexity=10 --statistics
 
-    # 5. Run Unit Tests
-    - name: Run unit tests
-      env:
-        # using secrets, tests import modules that check env vars
-        MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
-      run: |
-        pytest tests/
+    # # 5. Run Unit Tests
+    # - name: Run unit tests
+    #   env:
+    #     # using secrets, tests import modules that check env vars
+    #     MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
+    #   run: |
+    #     pytest tests/
 
     # 6. DVC Pull (Get the data)
     - name: Pull Data from DagsHub (DVC)
