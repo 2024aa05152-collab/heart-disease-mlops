@@ -3,6 +3,7 @@ Example: Testing Heart Disease API Monitoring & Logging
 This example demonstrates how to interact with the monitoring system
 """
 
+import os
 import requests
 import json
 import time
@@ -10,8 +11,9 @@ from datetime import datetime
 import random
 
 # Configuration
-API_BASE_URL = "http://localhost:8000"
-PROMETHEUS_URL = "http://localhost:9090"
+# Use environment variable if it exists, otherwise default to localhost
+API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+PROMETHEUS_URL = os.getenv("PROMETHEUS_URL", "http://localhost:9090")
 
 # Sample patient data for testing
 SAMPLE_PATIENTS = [
