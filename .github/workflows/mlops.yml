@@ -1,6 +1,7 @@
 name: MLOps CI/CD/CT Pipeline
 
 on:
+  workflow_dispatch:
   # push:
   #   branches: [ "develop" ]
   pull_request:
