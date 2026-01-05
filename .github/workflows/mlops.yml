@@ -27,23 +27,29 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         # We need dvc and dagshub mlflow for the data pull step below
-        pip install dvc dvc-s3 dagshub mlflow flake8 pytest
+        pip install dvc dvc-s3 dagshub mlflow flake8 black pytest pytest-cov
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     # 4. Lint code
+    - name: Lint code (Black)
+      run: black --check --diff .
+    
     - name: Lint code (Flake8)
       run: |
         flake8 src app tests --count --select=E9,F63,F7,F82 --show-source --statistics
         flake8 src app tests --count --exit-zero --max-complexity=10 --statistics
 
-    # # 5. Run Unit Tests
-    # - name: Run unit tests
-    #   env:
-    #     # using secrets, tests import modules that check env vars
-    #     MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
-    #   run: |
-    #     pytest tests/
+    # 5. Run Unit Tests
+    - name: Run unit tests with coverage
+      run: |
+        pytest tests/ -v --cov=src --cov-report=xml
 
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v4
+      with:
+        name: coverage-report
+        path: coverage.xml
+    
     # 6. DVC Pull (Get the data)
     - name: Pull Data from DagsHub (DVC)
       env:
@@ -82,3 +88,11 @@ jobs:
         context: .
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/heart-disease-api:latest
+
+    # 9. Log to GitHub Artifactory
+    - name: Upload logs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: logs
+        path: logs/
