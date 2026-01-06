@@ -1,1 +1,22 @@
+Important Links:
+
+  GitHub Repository: https://github.com/2024aa05152-collab/heart-disease-mlops
+  
+  Demo Recording: https://github.com/2024aa05152-collab/heart-disease-mlops/blob/develop/workflowRecording/workflow_demo.txt
+  
+  ScreenShots: https://github.com/2024aa05152-collab/heart-disease-mlops/tree/develop/workflowScreenshots
+  
+  Project Overview: https://github.com/2024aa05152-collab/heart-disease-mlops/blob/develop/README.md
+  
+  Environment Config: https://github.com/2024aa05152-collab/heart-disease-mlops/blob/develop/.env.example
+  
+  DVC: https://dagshub.com/bashyan/heart-disease-mlops?filter=dvc
+  
+  Experiment Tracking: 
+    https://dagshub.com/bashyan/heart-disease-mlops.mlflow/#/experiments/2/runs
+    https://dagshub.com/bashyan/heart-disease-mlops/experiments
+  
+  Model Registry: 
+    https://dagshub.com/bashyan/heart-disease-mlops.mlflow/#/models/HeartDisease_Model 
+    https://dagshub.com/bashyan/heart-disease-mlops/models/HeartDisease_Model
 
