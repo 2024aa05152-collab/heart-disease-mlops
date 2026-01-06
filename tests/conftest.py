@@ -23,29 +23,24 @@ def mock_model():
 @pytest.fixture(scope="function")
 def client(mock_model):
     """
-    Creates a TestClient with a MOCKED model.
-    Forces a reload of app.main to ensure the mock is used.
+    Creates a TestClient with a MOCKED model and MOCKED load status.
     """
     # 1. Start the patchers
-    # We patch 'load_model' to return our mock instead of hitting DagsHub
-    # We patch 'load_dotenv' to stop it looking for .env files
+    # We patch 'load_model' and specifically 'MODEL_LOADED' inside app.main
     with patch("mlflow.sklearn.load_model", return_value=mock_model), \
          patch("dotenv.load_dotenv"):
         
-        # 2. CRITICAL FIX: Force reload of app.main
-        # If app.main was already imported by another test, it has the REAL model cached.
-        # We delete it from sys.modules to force Python to re-import it under our patch.
+        # 2. Force reload to apply patches
         if "app.main" in sys.modules:
             del sys.modules["app.main"]
-        if "app" in sys.modules:
-            del sys.modules["app"]
-
-        # 3. Import the app newly (now passing through the patch)
-        from app.main import app as fastapi_app
-
-        # 4. Explicitly set the model (double safety)
-        fastapi_app.model = mock_model
+        
+        # 3. Import the app newly
+        import app.main as main_module
+        
+        # 4. Explicitly set the status variables for the health check
+        main_module.model = mock_model
+        main_module.MODEL_LOADED = True
         
         # 5. Yield the client
-        with TestClient(fastapi_app) as c:
+        with TestClient(main_module.app) as c:
             yield c

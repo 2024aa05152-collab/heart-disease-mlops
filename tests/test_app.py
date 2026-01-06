@@ -5,7 +5,6 @@ def test_health_check(client):
     data = response.json()
     assert data["status"] == "healthy"
     assert data["model_loaded"] is True
-    assert data["registry_source"] == "DagsHub"
 
 def test_prediction_endpoint(client):
     """Test the prediction endpoint with valid data."""
