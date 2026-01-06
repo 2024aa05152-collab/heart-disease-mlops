@@ -1,0 +1,4 @@
+Detailed Instruction is added in the Project Report Links:https://github.com/2024aa05152-collab/heart-disease-mlops/blob/develop/docs/MLOPS_Assignment1_Group85_Report.pdf
+
+Refer to Page Number 7 to 11 for the Instructions to Host and Access the API in Kubernetes (Minikube).
+
