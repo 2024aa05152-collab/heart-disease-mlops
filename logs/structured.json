@@ -1,0 +1,151 @@
+{"asctime": "2026-01-06 04:25:49,262", "name": "app", "levelname": "INFO", "message": "Model loaded successfully"}
+{"asctime": "2026-01-06 04:25:51,825", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:25:51.825462", "query_params": null}
+{"asctime": "2026-01-06 04:25:51,838", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:25:51,844", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 14.896154403686523, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:25:51.844002"}
+{"asctime": "2026-01-06 04:25:51,847", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:45302 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:26:01,835", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:26:01.835779", "query_params": null}
+{"asctime": "2026-01-06 04:26:01,838", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:26:01,840", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 2.7437210083007812, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:26:01.840260"}
+{"asctime": "2026-01-06 04:26:01,859", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:50382 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:26:11,808", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:26:11.808840", "query_params": null}
+{"asctime": "2026-01-06 04:26:11,813", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:26:11,817", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 4.660844802856445, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:26:11.817102"}
+{"asctime": "2026-01-06 04:26:11,819", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:49216 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:26:21,793", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:26:21.793835", "query_params": null}
+{"asctime": "2026-01-06 04:26:21,808", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:26:21,813", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 6.463050842285156, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:26:21.813543"}
+{"asctime": "2026-01-06 04:26:21,816", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:37538 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:26:31,655", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:26:31.655421", "query_params": null}
+{"asctime": "2026-01-06 04:26:31,662", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:26:31,665", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 4.257440567016602, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:26:31.665568"}
+{"asctime": "2026-01-06 04:26:31,667", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:51814 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:26:41,644", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:26:41.644053", "query_params": null}
+{"asctime": "2026-01-06 04:26:41,646", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:26:41,649", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 3.597259521484375, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:26:41.649833"}
+{"asctime": "2026-01-06 04:26:41,651", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:58802 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:26:51,632", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:26:51.632251", "query_params": null}
+{"asctime": "2026-01-06 04:26:51,635", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:26:51,637", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 3.1332969665527344, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:26:51.637793"}
+{"asctime": "2026-01-06 04:26:51,641", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:49154 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:26:59,736", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:26:59.736147", "query_params": null}
+{"asctime": "2026-01-06 04:26:59,905", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:26:59,912", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 8.14199447631836, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:26:59.912560"}
+{"asctime": "2026-01-06 04:26:59,916", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:49174 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:27:09,735", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:27:09.735656", "query_params": null}
+{"asctime": "2026-01-06 04:27:09,739", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:27:09,743", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 4.358053207397461, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:27:09.743330"}
+{"asctime": "2026-01-06 04:27:09,745", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:48918 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:27:19,688", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:27:19.688308", "query_params": null}
+{"asctime": "2026-01-06 04:27:19,695", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:27:19,706", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 11.730432510375977, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:27:19.706516"}
+{"asctime": "2026-01-06 04:27:19,712", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:43880 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:27:27,861", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:27:27.861392", "query_params": null}
+{"asctime": "2026-01-06 04:27:27,878", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:27:27,886", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 8.527994155883789, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:27:27.886041"}
+{"asctime": "2026-01-06 04:27:27,895", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:42560 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:27:37,861", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:27:37.861407", "query_params": null}
+{"asctime": "2026-01-06 04:27:37,866", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:27:37,872", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 7.3833465576171875, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:27:37.872728"}
+{"asctime": "2026-01-06 04:27:37,879", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:36568 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:27:47,870", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:27:47.870036", "query_params": null}
+{"asctime": "2026-01-06 04:27:47,872", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:27:47,877", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 5.125284194946289, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:27:47.877218"}
+{"asctime": "2026-01-06 04:27:47,879", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:36376 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:27:56,511", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:27:56.511671", "query_params": null}
+{"asctime": "2026-01-06 04:27:56,516", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:27:56,521", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 6.093263626098633, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:27:56.521425"}
+{"asctime": "2026-01-06 04:27:56,525", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:60906 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:28:06,527", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:28:06.527579", "query_params": null}
+{"asctime": "2026-01-06 04:28:06,533", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:28:06,538", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 6.401300430297852, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:28:06.538646"}
+{"asctime": "2026-01-06 04:28:06,549", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:57534 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:28:24,979", "name": "app", "levelname": "INFO", "message": "Model loaded successfully"}
+{"asctime": "2026-01-06 04:28:32,125", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:28:32.124984", "query_params": null}
+{"asctime": "2026-01-06 04:28:32,138", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:28:32,145", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 16.65782928466797, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:28:32.145569"}
+{"asctime": "2026-01-06 04:28:32,148", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:38160 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:28:42,118", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:28:42.118228", "query_params": null}
+{"asctime": "2026-01-06 04:28:42,123", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:28:42,132", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 10.010004043579102, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:28:42.132114"}
+{"asctime": "2026-01-06 04:28:42,135", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:59560 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:28:50,322", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:28:50.322157", "query_params": null}
+{"asctime": "2026-01-06 04:28:50,326", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:28:50,330", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 5.115747451782227, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:28:50.330635"}
+{"asctime": "2026-01-06 04:28:50,334", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:40998 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:29:00,328", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:29:00.328200", "query_params": null}
+{"asctime": "2026-01-06 04:29:00,330", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:29:00,333", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 3.710031509399414, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:29:00.333961"}
+{"asctime": "2026-01-06 04:29:00,335", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:58822 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:29:10,347", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:29:10.347278", "query_params": null}
+{"asctime": "2026-01-06 04:29:10,358", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:29:10,376", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 18.83864402770996, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:29:10.375983"}
+{"asctime": "2026-01-06 04:29:10,380", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:34016 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:29:18,576", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:29:18.576685", "query_params": null}
+{"asctime": "2026-01-06 04:29:18,581", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:29:18,584", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 3.8199424743652344, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:29:18.584946"}
+{"asctime": "2026-01-06 04:29:18,586", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:50084 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:29:28,583", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:29:28.583139", "query_params": null}
+{"asctime": "2026-01-06 04:29:28,606", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:29:28,614", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 8.08572769165039, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:29:28.614073"}
+{"asctime": "2026-01-06 04:29:28,617", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:57324 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:29:38,570", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:29:38.570848", "query_params": null}
+{"asctime": "2026-01-06 04:29:38,574", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:29:38,579", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 5.330324172973633, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:29:38.578989"}
+{"asctime": "2026-01-06 04:29:38,582", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:34626 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:29:46,727", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:29:46.727347", "query_params": null}
+{"asctime": "2026-01-06 04:29:46,758", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:29:46,807", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 51.94973945617676, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:29:46.807520"}
+{"asctime": "2026-01-06 04:29:46,831", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:47472 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:29:56,729", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:29:56.729618", "query_params": null}
+{"asctime": "2026-01-06 04:29:56,732", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:29:56,734", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 3.3540725708007812, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:29:56.734911"}
+{"asctime": "2026-01-06 04:29:56,736", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:52946 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:30:06,737", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:30:06.737281", "query_params": null}
+{"asctime": "2026-01-06 04:30:06,739", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:30:06,742", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 3.3712387084960938, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:30:06.742593"}
+{"asctime": "2026-01-06 04:30:06,744", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:34390 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:31:36,518", "name": "app", "levelname": "INFO", "message": "Model loaded successfully"}
+{"asctime": "2026-01-06 04:31:40,643", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:31:40.642974", "query_params": null}
+{"asctime": "2026-01-06 04:31:40,666", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:31:40,675", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 20.573139190673828, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:31:40.675423"}
+{"asctime": "2026-01-06 04:31:40,681", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:50432 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:31:50,644", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:31:50.644515", "query_params": null}
+{"asctime": "2026-01-06 04:31:50,651", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:31:50,660", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 9.104490280151367, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:31:50.660244"}
+{"asctime": "2026-01-06 04:31:50,665", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:37902 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:32:00,639", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:32:00.639004", "query_params": null}
+{"asctime": "2026-01-06 04:32:00,647", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:32:00,653", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 7.947444915771484, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:32:00.653801"}
+{"asctime": "2026-01-06 04:32:00,659", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:39568 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:32:08,775", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:32:08.775164", "query_params": null}
+{"asctime": "2026-01-06 04:32:08,783", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:32:08,792", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 9.865045547485352, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:32:08.792316"}
+{"asctime": "2026-01-06 04:32:08,801", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:37058 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:32:18,782", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:32:18.782417", "query_params": null}
+{"asctime": "2026-01-06 04:32:18,826", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:32:18,834", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 9.14311408996582, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:32:18.834244"}
+{"asctime": "2026-01-06 04:32:18,839", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:45578 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:32:28,780", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:32:28.780280", "query_params": null}
+{"asctime": "2026-01-06 04:32:29,271", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:32:29,304", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 33.92148017883301, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:32:29.304769"}
+{"asctime": "2026-01-06 04:32:29,320", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:39624 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:32:36,786", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:32:36.786842", "query_params": null}
+{"asctime": "2026-01-06 04:32:36,822", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:32:36,829", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 8.479833602905273, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:32:36.829438"}
+{"asctime": "2026-01-06 04:32:36,836", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:60984 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:32:46,785", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:32:46.785412", "query_params": null}
+{"asctime": "2026-01-06 04:32:47,014", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:32:47,033", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 23.752689361572266, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:32:47.033663"}
+{"asctime": "2026-01-06 04:32:47,059", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:41610 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:32:56,793", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:32:56.793712", "query_params": null}
+{"asctime": "2026-01-06 04:32:56,800", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:32:56,816", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 17.54283905029297, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:32:56.816922"}
+{"asctime": "2026-01-06 04:32:56,823", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:37610 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:33:05,017", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:33:05.017335", "query_params": null}
+{"asctime": "2026-01-06 04:33:05,023", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:33:05,030", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 8.388519287109375, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:33:05.030738"}
+{"asctime": "2026-01-06 04:33:05,035", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:34248 - \"GET /metrics HTTP/1.1\" 200"}
+{"asctime": "2026-01-06 04:33:15,032", "name": "app", "levelname": "INFO", "message": "API Request: GET /metrics", "method": "GET", "path": "/metrics", "client_ip": "172.19.0.2", "timestamp": "2026-01-06T04:33:15.031954", "query_params": null}
+{"asctime": "2026-01-06 04:33:15,036", "name": "app", "levelname": "INFO", "message": "Metrics endpoint accessed"}
+{"asctime": "2026-01-06 04:33:15,042", "name": "app", "levelname": "INFO", "message": "API Response: 200", "status_code": 200, "duration_ms": 6.374597549438477, "path": "/metrics", "method": "GET", "timestamp": "2026-01-06T04:33:15.042221"}
+{"asctime": "2026-01-06 04:33:15,048", "name": "uvicorn.access", "levelname": "INFO", "message": "172.19.0.2:41976 - \"GET /metrics HTTP/1.1\" 200"}
