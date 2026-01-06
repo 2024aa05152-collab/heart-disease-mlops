@@ -255,6 +255,6 @@ def start_cpu_metrics_collection(interval: int = 5):
 
 def stop_cpu_metrics_collection():
     """Stop collecting CPU and system metrics"""
-    global _collector
+    global _collector # noqa: F824
     if _collector is not None:
         _collector.stop()
